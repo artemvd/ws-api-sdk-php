@@ -25,6 +25,8 @@ abstract class DocumentTypeProvider
 
     const EDOC = 'edoc';
 
+    const XADES = 'xades';
+
     final public static function getAllDocumentTypes()
     {
         return [
@@ -43,6 +45,7 @@ abstract class DocumentTypeProvider
             self::MDOC_GGEDOC,
             self::BDOC,
             self::EDOC,
+            self::XADES,
         ];
     }
 
